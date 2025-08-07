@@ -1,0 +1,42 @@
+/* ----------------
+   Variables
+---------------- */
+
+$primaryColor: hsl(219, 42%, 11%);
+$secondaryColor: #1f2938;
+$tertiaryColor: #34495e;
+$pc: 768px;
+
+/* ----------------
+   Mixins 
+---------------- */
+
+@mixin pc {
+  @media screen and (min-width: $pc) {
+    @content;
+  }
+}
+/* ----------------
+   Functions 
+---------------- */
+/* ----------------
+   Reset
+---------------- */
+
+/* ----------------
+   Utilities
+---------------- */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge, and Opera */
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.neo-outer-glow {
+  box-shadow:
+    3px 3px 6px srgba(0, 0, 0, 0.2),
+    -3px -3px 6px rgba(255, 255, 255, 0.08) !important;
+}

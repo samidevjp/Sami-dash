@@ -1,0 +1,68 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="22"
+  height="22"
+  viewBox="0 0 22 22"
+>
+  <defs>
+    <clipPath id="clip-path">
+      <rect
+        id="Rectangle_798"
+        data-name="Rectangle 798"
+        width="22"
+        height="22"
+        transform="translate(14 14)"
+        fill="none"
+        stroke="#fff"
+        stroke-width="1"
+      />
+    </clipPath>
+  </defs>
+  <g
+    id="Mask_Group_180"
+    data-name="Mask Group 180"
+    transform="translate(-14 -14)"
+    clip-path="url(#clip-path)"
+  >
+    <g
+      id="Wait_list"
+      data-name="Wait list"
+      transform="translate(12.898 14)"
+    >
+      <path
+        id="Path_358"
+        data-name="Path 358"
+        d="M20.156,13.495H20.9v-.924a.493.493,0,0,0-.493-.493H15.228a.493.493,0,0,0-.493.493v.924h.748V15.3a1.962,1.962,0,0,0,.66,1.47,1.98,1.98,0,0,0-.66,1.474v2.336h-.748v.924a.493.493,0,0,0,.493.493h5.183a.493.493,0,0,0,.493-.493v-.924h-.748V18.247a1.984,1.984,0,0,0-.664-1.474,1.967,1.967,0,0,0,.664-1.47ZM16.72,19.923a.264.264,0,0,1-.528,0v-1.76a.264.264,0,1,1,.528,0Zm0-4.55a.264.264,0,1,1-.528,0v-1.6a.264.264,0,0,1,.528,0Z"
+      />
+      <path
+        id="Path_359"
+        data-name="Path 359"
+        d="M4.18,20.359V1.641A.757.757,0,0,1,4.937.88H17.063a.757.757,0,0,1,.757.761v8.822h.88v-8.8A1.637,1.637,0,0,0,17.063,0H4.937A1.637,1.637,0,0,0,3.3,1.641V20.359A1.637,1.637,0,0,0,4.937,22h7.59v-.88H4.937a.757.757,0,0,1-.757-.761Z"
+      />
+      <rect
+        id="Rectangle_810"
+        data-name="Rectangle 810"
+        width="10.186"
+        height="1.188"
+        rx="0.123"
+        transform="translate(5.909 5.245)"
+      />
+      <rect
+        id="Rectangle_811"
+        data-name="Rectangle 811"
+        width="10.186"
+        height="1.188"
+        rx="0.123"
+        transform="translate(5.909 9.258)"
+      />
+      <rect
+        id="Rectangle_812"
+        data-name="Rectangle 812"
+        width="6.455"
+        height="1.188"
+        rx="0.123"
+        transform="translate(5.909 13.504)"
+      />
+    </g>
+  </g>
+</svg>

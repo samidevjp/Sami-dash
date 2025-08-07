@@ -1,0 +1,245 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --accent-foreground: 220 12% 32%;
+    --accent: 220 18% 97%;
+    --background-payment: 0 0% 10%;
+    --background-pos: 220 14% 96%;
+    --background-reservation-card: 0 0% 100%;
+    --background-reverse: 0 0% 0%;
+    --background: 0 0% 100%;
+    --border: 220 15% 94%;
+    --cancelled: 0 0% 44%;
+    --card-foreground: 220 12% 22%;
+    --card: 0 0% 100%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --custom-gray: 0 0% 77%;
+    --custom-gray-dark: 203 16% 90%; /*  Gray for when text color is white */
+    --custom-gray-dark-foreground: 220 31% 98%;
+    --danger: 0 80% 60%;
+    --destructive-foreground: 11 80% 82%;
+    --destructive: 11 80% 22%;
+    --foreground: 220 12% 25%;
+    --gray-dark: 0 0% 100%;
+    --gray-darker: 214 11% 12%;
+    --gray-light: 0 0% 67%;
+    --gray: 221 13% 46%;
+    --green: 157 100% 52%;
+    --hover-table: 0 0% 100%;
+    --input: 220 15% 94%;
+    --muted-foreground: 220 7% 25%;
+    --muted: 220 18% 97%;
+    --pink: 1 98% 78%;
+    --popover-foreground: 220 51% 3%;
+    --popover: 0 0% 100%;
+    --primary-foreground: 220 91% 98%;
+    --primary: 233 94% 63%;
+    --radius: 0.5rem;
+    --red: 3 100% 68%;
+    --reservation-icon: 220 18% 97%;
+    --ring: 233 94% 63%;
+    --secondary-foreground: 220 12% 32%;
+    --secondary: 220 18% 98%;
+    --tertiary: 0 0% 100%;
+    --tertiary-foreground: 220 12% 28%;
+    --soft-red: 0 50% 50%;
+    --team-gray-lighter: 0 0% 90%;
+    --team-gray: 0 0% 60%;
+    --bezel: 0 0% 95%;
+    --booking-seated: 353 100% 72.5%;
+    --booking-late: 12 100% 72.9%;
+    --booking-partially-seated: 264 80.5% 77.8%;
+    --booking-billed: 148 100% 76.1%;
+    --booking-finished: 0 0% 43.9%;
+    --booking-unconfirmed: 264 80.5% 77.8%;
+    --booking-upcoming: 264 86.3% 68.4%;
+    --booking-progress-seated: 354 69.8% 55.9%;
+    --booking-progress-partially-seated: 264 86.3% 68.4%;
+    --booking-progress-late: 11 68.8% 56.1%;
+    --booking-progress-finished: 0 0% 43.9%;
+    --booking-progress-unconfirmed: 264 86.3% 68.4%;
+  }
+
+  .dark {
+    --accent-foreground: 220 13% 74%;
+    --accent: 220 13% 14%;
+    --background-payment: 0 0% 10%;
+    --background-pos: 221 100% 4%;
+    --background-reservation-card: 220 7% 9%;
+    --background-reverse: 0 0% 100%;
+    --background: 220 43% 3%;
+    --border: 215 27.9% 16.9%;
+    --cancelled: 0 0% 44%;
+    --card-foreground: 220 31% 99%;
+    --card: 220 43% 4%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+    --custom-gray: 0 0% 24%;
+    --danger: 0 80% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --destructive: 339.2 90.36% 51.18%;
+    --foreground: 220 31% 98%;
+    --gray-dark: 203 16% 16%;
+    --gray-darker: 214 11% 12%;
+    --custom-gray-dark: 203 16% 16%; /*  Gray for when text color is white */
+    --custom-gray-dark-foreground: 220 31% 98%;
+    --gray-light: 0 0% 67%;
+    --gray: 221 13% 46%;
+    --green: 157 100% 52%;
+    --hover-table: 220 7% 13%;
+    --input: 220 8% 50%;
+    --muted-foreground: 220 13% 63%;
+    --muted: 220 7% 13%;
+    --pink: 1 98% 78%;
+    --popover-foreground: 220 31% 98%;
+    --popover: 220 43% 3%;
+    --primary-foreground: 220 91% 98%;
+    --primary: 233 94% 63%;
+    --red: 3 100% 68%;
+    --reservation-icon: 220 43% 4%;
+    --ring: 233 94% 63%;
+    --secondary-foreground: 220 7% 69%;
+    --secondary: 220 7% 9%;
+    --tertiary: 220 10% 20%;
+    --tertiary-foreground: 220 10% 75%;
+    --soft-red: 0 50%, 45%;
+    --team-gray-lighter: 0 0% 70%;
+    --team-gray: 0 0% 70%;
+    --bezel: 0 0% 13%;
+    --booking-seated: 353 100% 72.5%;
+    --booking-late: 12 100% 72.9%;
+    --booking-partially-seated: 264 80.5% 77.8%;
+    --booking-billed: 148 100% 76.1%;
+    --booking-finished: 0 0% 43.9%;
+    --booking-unconfirmed: 179 92.7% 89.2%;
+    --booking-upcoming: 0 0% 100%;
+    --booking-progress-seated: 354 69.8% 55.9%;
+    --booking-progress-partially-seated: 264 86.3% 68.4%;
+    --booking-progress-late: 11 68.8% 56.1%;
+    --booking-progress-finished: 0 0% 43.9%;
+    --booking-progress-unconfirmed: 177 33.8% 69.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply box-border bg-background text-foreground;
+  }
+}
+@layer utilities {
+  .min-h-screen {
+    min-height: 100vh; /* Fallback */
+    min-height: 100dvh;
+  }
+  .h-screen {
+    height: 100vh; /* Fallback */
+    height: 100dvh;
+  }
+}
+
+body {
+  font-family: 'Inter';
+}
+
+html.modal-open,
+body.modal-open {
+  pointer-events: none;
+}
+
+.modal {
+  pointer-events: auto;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.03);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+}
+
+.listening-indicator {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 10px;
+  animation: pulse 1s infinite;
+}
+
+.animate-spin {
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  16.67% {
+    transform: rotate(60deg);
+  }
+  33.33% {
+    transform: rotate(120deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  66.67% {
+    transform: rotate(240deg);
+  }
+  83.33% {
+    transform: rotate(300deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.table-filter {
+  filter: brightness(300%) contrast(200%) saturate(0%)
+    drop-shadow(1px 1px 1px rgba(168, 168, 168, 1))
+    drop-shadow(-1px -1px 1px rgba(168, 168, 168, 1));
+}
+
+.dark .table-filter {
+  filter: none;
+}

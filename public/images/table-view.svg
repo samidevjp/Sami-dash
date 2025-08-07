@@ -1,0 +1,50 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="22"
+  height="22"
+  viewBox="0 0 22 22"
+>
+  <defs>
+    <clipPath id="clip-path">
+      <rect
+        id="Rectangle_798"
+        data-name="Rectangle 798"
+        width="22"
+        height="22"
+        transform="translate(14 14)"
+        fill="none"
+        stroke="#fff"
+        stroke-width="1"
+      />
+    </clipPath>
+  </defs>
+  <g
+    id="Mask_Group_178"
+    data-name="Mask Group 178"
+    transform="translate(-14 -14)"
+    clip-path="url(#clip-path)"
+  >
+    <g id="Time" transform="translate(14 14)">
+      <path
+        id="Path_350"
+        data-name="Path 350"
+        d="M19.5,0H2.5A2.5,2.5,0,0,0,0,2.5V19.5A2.5,2.5,0,0,0,2.5,22H19.5A2.5,2.5,0,0,0,22,19.5V2.5A2.5,2.5,0,0,0,19.5,0ZM21.12,2.5V4.8H15.105V.88h4.4A1.624,1.624,0,0,1,21.12,2.5ZM6.895,13.3H.88V5.685H6.895Zm.88-1.157h6.45v8.98H7.775Zm6.45-2.288H7.775V5.685h6.45ZM7.775,4.8V.88h6.45V4.8ZM2.5.88H6.9V4.8H.88V2.5A1.624,1.624,0,0,1,2.5.88ZM.88,19.5V15.585H6.895V21.12h-4.4A1.624,1.624,0,0,1,.88,19.5Zm20.24,0A1.624,1.624,0,0,1,19.5,21.12H15.1V19.092H21.12Zm0-2.693H15.105V9.478H21.12ZM15.105,7.19v-1.5H21.12v1.5Z"
+      />
+      <path
+        id="Path_351"
+        data-name="Path 351"
+        d="M2.424,3.252H5.337a.44.44,0,0,0,0-.88H2.424a.44.44,0,0,0,0,.88Z"
+      />
+      <path
+        id="Path_352"
+        data-name="Path 352"
+        d="M12.483,2.38H9.574a.44.44,0,0,0,0,.88h2.908a.44.44,0,0,0,0-.88Z"
+      />
+      <path
+        id="Path_353"
+        data-name="Path 353"
+        d="M16.685,3.26H19.6a.44.44,0,1,0,0-.88H16.685a.44.44,0,1,0,0,.88Z"
+      />
+    </g>
+  </g>
+</svg>

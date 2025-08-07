@@ -1,0 +1,11 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .print-content {
+    visibility: visible;
+    width: 300px;
+    margin: 0 auto;
+    page-break-inside: avoid;
+  }
+}

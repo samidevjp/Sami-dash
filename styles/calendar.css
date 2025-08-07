@@ -1,0 +1,67 @@
+.booking-calendar .rdp-head_cell {
+}
+.rdp-day_outside {
+  opacity: 1;
+}
+.booking-calendar .rdp-NavBar {
+  display: none;
+}
+
+.booking-calendar .rdp-day_selected {
+  background: hsl(var(--primary));
+  color: #fff;
+}
+
+.booking-calendar .rdp-month,
+.booking-calendar .rdp-table {
+  width: 100%;
+  max-width: none;
+}
+
+.booking-calendar .rdp-day {
+  width: 100%;
+  display: inline-block;
+  transition: 0.1s;
+}
+
+.booking-calendar .rdp-day--disabled {
+  /* color: #9b9b9b; */
+}
+
+.booking-calendar .rdp-day--outside {
+  /* color: #999999; */
+}
+
+.booking-calendar .rdp-day--today {
+  font-weight: normal;
+}
+.booking-calendar .rdp-day.rdp-day_disabled:hover {
+  background: none !important;
+}
+.booking-calendar
+  .rdp-day--selected:not(.rdp-day--disabled):not(.rdp-day--outside),
+.booking-calendar
+  .rdp-day:not(.rdp-day--disabled):not(.rdp-day--selected):not(
+    .rdp-day--outside
+  ):hover {
+  font-weight: 500;
+  /* background: hsl(var(--primary)); */
+  opacity: 0.6;
+  /* color: #fff; */
+}
+
+.booking-calendar .rdp-Month {
+  width: 100%;
+  height: 320px;
+}
+
+.booking-calendar .rdp-Month .rdp-Caption {
+  display: none;
+}
+
+.booking-calendar .rdp-Month .rdp-weekdaysRow .rdp-weekday {
+  /* color: #bcbcbc; */
+}
+.booking-calendar .rdp-caption {
+  display: none;
+}
